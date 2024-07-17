@@ -7,6 +7,7 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 import FormErrMsg from "../component/FormErrMsg";
 import axios from "axios";
+import BASE_URL from "../component/urls";
 
 const schema = yup.object().shape({
   otp: yup
