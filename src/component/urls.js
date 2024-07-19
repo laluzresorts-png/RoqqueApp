@@ -1,4 +1,4 @@
 // url.js
-const BASE_URL = "https://appapiserver.vercel.app";
+const BASE_URL = "https://roqserver.vercel.app";
 
 export default BASE_URL;
